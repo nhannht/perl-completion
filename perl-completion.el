@@ -440,8 +440,8 @@ directory is added to PERL5LIB when invoke completion commands."
   (let ((map (make-sparse-keymap)))
     (when plcmp-use-keymap
       ;; completion
-      (define-key map (kbd "C-RET") 'plcmp-cmd-smart-complete)
-      (define-key map (kbd "C-<return>") 'plcmp-cmd-smart-complete)
+      ;; (define-key map (kbd "C-RET") 'plcmp-cmd-smart-complete)
+      ;; (define-key map (kbd "C-<return>") 'plcmp-cmd-smart-complete)
       (define-key map (kbd "C-M-i") 'plcmp-cmd-smart-complete)
       (define-key map (kbd "C-c a") 'plcmp-cmd-complete-arrays)
       (define-key map (kbd "C-c i") 'plcmp-cmd-complete-modules)
